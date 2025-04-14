@@ -6,20 +6,20 @@
     <meta name="author" content="Hman">
     <meta name="description" content="Sale of tacos">
     <meta name="keywords" content="tacos, food, sale">
-    <link rel="stylesheet" href="D:\Code\Web\10_lesson_starter\css\style.css">
-    <link rel="shortcut icon" href="D:\Code\Web\10_lesson_starter\favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="10_lesson_starter/css/style.css">
+    <link rel="icon" href="10_lesson_starter/favicon.ico" type="image/x-icon">
     <title>A little Taco store</title>
 </head>
 
 <body>
-    <header class="header">
+    <header id="header">
         <h2>Welcome to The Little Taco Shop</h2>
         <nav>
             <ul>
-                <li><a href="#about"></a>About LTS</li>
-                <li><a href="#menu"></a>Our Menu</li>
-                <li><a href="hours.html"></a>Store Hours</li>
-                <li><a href="contact.html"></a>Contact Us</li>
+                <li><a href="#about">About <abnr title="Little Taco Shop">LTS</abnr></a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="hours.html">Store Hours</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
         <figure>
@@ -34,7 +34,7 @@
     <main>
         <section id="about">
             <h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
-            <p><abbr title="Little Taco Shop">LTS</abbr> was founded in 2022. Our shop was built from a <strong>love of tacos</strong>.
+            <p><abbr title="Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time>. Our shop was built from a <strong>love of tacos</strong>.
             We hope our shop adds a unique and interesting place to our little town.</p>
             <h3>Taco Trivia</h3>
             <details>
@@ -47,7 +47,7 @@
         
         <section id="menu">
             <h2>Our Menu</h2>
-            <table boder="1">
+            <table border="1">
                 <caption>Our Tacos</caption>
                 <thead>
                     <tr>
@@ -58,9 +58,30 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Crunchy</td>
+                        <td rowspan="3">Crunchy</td>
+                        <td>1</td>
+                        <td>$1.00</td>
+                    </tr>
+                    <tr>
                         <td>2</td>
                         <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$3.00</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Crunchy</td>
+                        <td>1</td>
+                        <td>$1.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$3.00</td>
                     </tr>
                 </tbody>
                 <tfoot>
@@ -71,7 +92,7 @@
             </table>
         </section>
         
-        <a href="#header">Back to Top</a>
+        <a href="#">Back to Top</a>
     </main>
 
     <hr>
